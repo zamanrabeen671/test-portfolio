@@ -1,0 +1,40 @@
+@import 'utilities.css';
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-font-smothing: antialiased;
+}
+:root{
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #F2F2F2;
+}
+header{
+    background-color: var(--dark);
+    height: 800px;
+
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .brand{
+    margin-right: 3rem;
+}
