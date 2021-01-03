@@ -25,3 +25,20 @@
     border-color:var(--primary);
     color: var(--primary);
 }
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    color: #fff;
+    
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
